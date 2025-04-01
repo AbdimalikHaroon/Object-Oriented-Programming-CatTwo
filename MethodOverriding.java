@@ -23,8 +23,8 @@ class Cat extends Animal {
 
 public class MethodOverriding {
     public static void main(String[] args) {
-        Dog myDog = new Dog(); // Create the Dog object
-        Cat myCat = new Cat(); // Create the Cat object
+        Animal myDog = new Dog(); // Create the Dog object
+        Animal myCat = new Cat(); // Create the Cat object
 
         myDog.makeSound(); // Call the function from the dog subclass
         myCat.makeSound(); // Call the function from the cat subclass
