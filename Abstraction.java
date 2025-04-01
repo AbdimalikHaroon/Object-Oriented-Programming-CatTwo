@@ -3,7 +3,7 @@ abstract class Appliance {
     public abstract void turnOn(); // Abstract method
 }
 
-// Subclass that inherits from Appliance
+// Subclass that extends from Appliance
 class Fan extends Appliance {
     @Override
     public void turnOn() {
@@ -11,7 +11,7 @@ class Fan extends Appliance {
     }
 }
 
-// Subclass that also inherits from Appliance
+// Subclass that also extends from Appliance
 class TV extends Appliance {
     @Override
     public void turnOn() {
